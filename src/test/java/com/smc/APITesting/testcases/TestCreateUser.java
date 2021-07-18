@@ -55,8 +55,21 @@ public class TestCreateUser extends Resources {
 		System.out.println("Test Project");
 
 	}
+
 	@Test(enabled = true)
 	public void SampleTestMethods4() {
+		 
+		System.out.println("Test Project-Jakarta");
+
+	}
+	@Test(enabled = true)
+	public void SampleTestMethods5() {
+		 
+		System.out.println("Test Project-Jakarta");
+
+	}
+	@Test(enabled = true)
+	public void SampleTestMethods6() {
 		 
 		System.out.println("Test Project-Jakarta");
 
