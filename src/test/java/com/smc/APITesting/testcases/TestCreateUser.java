@@ -36,5 +36,18 @@ public class TestCreateUser extends Resources {
 		System.out.println(js.getString("email"));
 
 	}
+	
+	@Test(enabled = true)
+	public void SampleTestMethods() {
+		 
+		System.out.println("Test Project");
+
+	}
+	@Test(enabled = true)
+	public void SampleTestMethods2() {
+		 
+		System.out.println("Test Project");
+
+	}
 	 
 }
