@@ -74,4 +74,16 @@ public class TestCreateUser extends Resources {
 		System.out.println("Test Project-Jakarta");
 
 	}
+	@Test(enabled = true)
+	public void SampleReset() {
+		 
+		System.out.println("SampleReset");
+
+	}
+	@Test(enabled = true)
+	public void SampleRevert() {
+		 
+		System.out.println("SampleReset");
+
+	}
 }
