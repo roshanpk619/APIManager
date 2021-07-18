@@ -8,6 +8,7 @@
           <include name="tearDown"/>
           <include name="setUp"/>
           <include name="CreateUsr"/>
+          <include name="getUser"/>
         </methods>
       </class> <!-- com.smc.APITesting.testcases.TestCreateUser -->
     </classes>

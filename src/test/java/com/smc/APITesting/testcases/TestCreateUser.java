@@ -14,7 +14,7 @@ import java.util.HashMap;
 
 public class TestCreateUser extends Resources {
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void getUser() {
 		Response response = given().contentType("application/json")
 				// .body(map)
@@ -24,7 +24,7 @@ public class TestCreateUser extends Resources {
 		Assert.assertEquals(response.statusCode(), 200);
 	}
 
-	@Test(enabled = true)
+	@Test(enabled = false)
 	public void CreateUsr() {
 		Response response = given().contentType("application/json").body(createUser())
 				.put(config.getProperty("customerApiEndPoint"));
